@@ -20,6 +20,8 @@ body {
     background: #FCFAF9;
 }
 
+a { text-decoration: none; }
+
 p { 
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
@@ -159,6 +161,7 @@ h6 {
     margin-top: 120px;
 
     padding: 48px 32px 48px 32px;
+    
 }
 
 .footer > p {
@@ -170,6 +173,109 @@ h6 {
 }
 
 .social-container  {
+    display: flex;
+    margin-top: 38px;
+    gap: 20px;
+}
+
+
+
+/*************Location Page (MOBILE)*****************/
+
+.map-image_mobile {
+    position: relative;
+}
+
+.arrowleft-container {
+    width: 56px;
+    height: 72px;
+    background: #d5966c;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backtohome-container {
+    width: 208px;
+    height: 72px;
+    background: #151515;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backtohome-container > h6 {
+    font-size: 20px;
+    letter-spacing: 3.64px;
+
+    color: white;
+}
+
+.button-back {
+    display: flex;
+    position: absolute;
+
+    margin-top: -554px;
+}
+
+                        /*Location-Main (mobile)*/
+.location-main {
+    width: 375px;
+    height: 493px;
+    background: #151515;
+
+    padding: 48px 16px 56px 16px;
+
+    margin-top: -4px;
+}
+
+.location-main > h4 {
+    font-size: 50px;
+    color: white;
+}
+
+.location-main > h5 {
+    font-size: 32px;
+    color: #d5966c;
+    margin-top: 48px;
+    text-transform: uppercase;
+}
+
+address > p {
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    color: white;
+}
+
+address { margin-top: 20px; }
+
+.location-main > p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+
+                        /*******Location FOOTER*/
+.location-footer {
+    width: 375px;
+    height: 336px;
+    background: #d5966c;
+
+    padding: 48px 32px 48px 32px;
+}
+
+.location-footer > p {
+    margin-top: 38px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+}
+
+.social-container_location {
     display: flex;
     margin-top: 38px;
     gap: 20px;
