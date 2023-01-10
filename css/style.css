@@ -498,15 +498,167 @@ h6 {
     margin-top: 0px;
     margin-left: 133px;
 }
-
-
-
-   
-
-   
+}
 
 
 
 
 
+
+/**************************************************DESKTOP SIZE****************************************************/
+
+@media only screen and (max-width: 1439px) {
+    .black-container {
+        display: none;
+    }
+
+    .hero-image_desktop {
+        display: none;
+    }
+
+    .variant-h2-3 {
+        display: none;
+    }
+
+    .grid1-desktop,
+    .grid2-desktop,
+    .grid3-desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .breakpoint-size {
+        width: 1440px;
+    }
+
+    .black-container {
+        width: 450px;
+        height: 800px;
+        background: #151515;
+    }
+
+    .hero-image_tablet {
+        display: none;
+    }
+
+    .header-aside > h1 {
+        width: 514px;
+        height: 176px;
+        font-size: 96px;
+        line-height: 88px;
+        color: white;
+
+        margin-left: -826px;
+        margin-top: 30px;
+    }
+
+    .blackpeace {
+        color: #151515;
+    }
+
+    .header-aside > p {
+        width: 350px;
+        height: 160px;
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: -170px;
+        margin-left: -24px;
+    }
+
+    .button-next {
+        margin-top: 64px;
+        margin-left: -24px;
+    }
+
+                            /*MAIN (desktop)*/
+    .main {
+        padding-left: 165px;
+        padding-right: 164px;
+        margin-top: 180px;
+    
+    }
+
+    .variant-h2-2 {
+        display: none;
+    }
+
+    .variant-h2-3 {
+        width: 350px;
+        height: 120px;
+        font-size: 60px;
+        line-height: 60px;
+
+        color: #151515;
+        text-transform: uppercase;
+    }
+
+    .main-grid1-texts > p {
+        width: 350px;
+        height: 128px;
+
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .grid1-tablet,
+    .grid2-tablet,
+    .grid3-tablet {
+        display: none;
+    }
+
+    .grid2-desktop {
+        margin-top: 30px;
+    }
+
+    .grid3-desktop { 
+        display: flex;
+        margin-left: 665px;
+        margin-top: -724px;
+    }
+
+    .main-container2 {
+
+        margin-left: 665px;
+        margin-top: 30px;
+        width: 445px;
+        height: 377px;
+
+        padding: 65px 47px 64px 48px;
+    }
+
+    .main-container2 > h3 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .main-container2 > p {
+        margin-top: 32px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+                                            /*Footer Desktop*/
+
+    .footer {
+        width: 1440px;
+        height: 244px;
+    
+        padding: 80px 165px 80px 165px;
+        
+    }
+    
+    .footer > p {
+        margin-left: 140px;
+        width: 430px;
+        height: 84px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .social-container  {
+        margin-left: 280px;
+    }
+    
+
+    
 }
