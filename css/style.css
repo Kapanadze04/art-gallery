@@ -231,28 +231,28 @@ h6 {
     margin-top: -4px;
 }
 
-.location-main > h4 {
+.location-title{
     font-size: 50px;
     color: white;
 }
 
-.location-main > h5 {
+.location-flex > h5 {
     font-size: 32px;
     color: #d5966c;
     margin-top: 48px;
     text-transform: uppercase;
 }
 
-address > p {
+.add > p {
     font-size: 18px;
     line-height: 28px;
     font-style: normal;
     color: white;
 }
 
-address { margin-top: 20px; }
+.add { margin-top: 20px; }
 
-.location-main > p {
+.location-flex > p {
     margin-top: 20px;
     font-size: 18px;
     line-height: 28px;
@@ -298,6 +298,10 @@ address { margin-top: 20px; }
     .grid1-tablet,
     .grid2-tablet,
     .grid3-tablet {
+        display: none;
+    }
+
+    .map-image_tablet {
         display: none;
     }
 }
@@ -421,6 +425,82 @@ address { margin-top: 20px; }
     margin-top: 0px;
     margin-left: 133px;
 }
+
+
+
+
+
+
+
+/**********************************************************Location PAGE*******************************************/
+
+
+.map-image_mobile {
+    display: none;
+}
+
+.map-image_tablet {
+    position: relative;
+}
+
+.button-back {
+    display: flex;
+    position: absolute;
+    margin-left: 39px;
+    margin-top: -604px;
+}
+
+                            /*Location-Main (TABLET)*/
+.location-main {
+    width: 768px;
+    height: 436px;
+
+    padding: 88px 40px 80px 39px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-title {
+    font-size: 55px;
+    line-height: 50px;
+    width: 223px;
+    height: 100px;
+}
+
+.location-flex > h5 {
+    margin-top: 0px;
+}
+
+.location-flex > p {
+    width: 398px;
+    height: 112px;
+}
+
+                                          /*LOcation Footer (tablet)*/
+.location-footer {
+    width: 768px;
+    height: 216px;
+
+    padding: 56px 40px 56px 39px;
+
+    display: flex;
+}
+
+.location-footer > p {
+    margin-top: 0px;
+    width: 281px;
+    height: 104px;
+    margin-left: 65px;
+}
+
+.social-container_location {
+    margin-top: 0px;
+    margin-left: 133px;
+}
+
+
+
    
 
    
